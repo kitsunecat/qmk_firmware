@@ -1,0 +1,15 @@
+MOUSEKEY_ENABLE = yes
+RGBLIGHT_ENABLE = no
+
+RGB_MATRIX_ENABLE = yes
+# ここを追加
+
+# RGB_MATRIX_ENABLE = no
+OLED_ENABLE     = yes
+OLED_DRIVER     = SSD1306
+LTO_ENABLE      = yes
+
+# ファームウェアの容量を削減するために宣言
+MOUSEKEY_ENABLE = no
+EXTRAKEY_ENABLE = no
+LTO_ENABLE = yes
